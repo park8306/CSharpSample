@@ -18,7 +18,6 @@ namespace multiplication_table
                 Console.WriteLine($"{number} X {i + 1} = {number * (i + 1)}");
             }
         }
- //주석
     }
 }
 
