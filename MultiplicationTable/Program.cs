@@ -7,7 +7,7 @@ namespace multiplication_table
         static void Main()
         {
             Console.WriteLine("출력할 구구단을 입력하세요 - 111");
-            Console.WriteLine("222222222");
+            Console.WriteLine("222222222체크.");
 
             string readString = Console.ReadLine();
 
@@ -24,6 +24,14 @@ namespace multiplication_table
             {
                 Console.WriteLine($"{number} X {j + 1} = {number * (j + 1)}");
                 j++;
+            }
+        }
+
+        void kksumm123()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                Console.WriteLine($"{i} 출력");
             }
         }
     }
