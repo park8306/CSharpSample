@@ -18,6 +18,14 @@ namespace multiplication_table
                 Console.WriteLine($"{number} X {i + 1} = {number * (i + 1)}");
             }
         }
+
+        void kksumm123()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                Console.WriteLine($"{i} 출력");
+            }
+        }
     }
 }
 
