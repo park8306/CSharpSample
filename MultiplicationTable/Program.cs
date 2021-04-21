@@ -25,9 +25,10 @@ namespace multiplication_table
                 Console.WriteLine($"{number} X {j + 1} = {number * (j + 1)}");
                 j++;
             }
+            Kksumm123();
         }
 
-        void kksumm123()
+        static void Kksumm123()
         {
             for (int i = 0; i < 9; i++)
             {
