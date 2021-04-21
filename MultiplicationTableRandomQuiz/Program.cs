@@ -47,11 +47,11 @@ namespace MultiplicationTableRandomQuiz
             bool isRight = userInputNumber == rightResult;
             if (isRight)
             {
-                Print("정답입니다");
+                Print("정답");
             }
             else
             {
-                Print("오답입니다");
+                Print("오답");
             }
         }
 
