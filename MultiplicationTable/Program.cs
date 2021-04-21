@@ -7,7 +7,7 @@ namespace multiplication_table
         static void Main()
         {
             Console.WriteLine("출력할 구구단을 입력하세요 - 111");
-            Console.WriteLine("222222222");
+            Console.WriteLine("222222222체크");
 
             string readString = Console.ReadLine();
 
