@@ -20,7 +20,7 @@ namespace multiplication_table
 
             int limit = 9;
             int j = 0;
-            while (j < limit)
+            while (j <= limit)
             {
                 Console.WriteLine($"{number} X {j + 1} = {number * (j + 1)}");
                 j++;
