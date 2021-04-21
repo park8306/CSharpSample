@@ -13,9 +13,17 @@ namespace multiplication_table
 
             int number = int.Parse(readString);
 
-            for (int i = 0; i < 9; i++)
+            //for (int i = 0; i < 9; i++)
+            //{
+            //    Console.WriteLine($"{number} X {i + 1} = {number * (i + 1)}");
+            //}
+
+            int limit = 9;
+            int j = 0;
+            while (j <= limit)
             {
-                Console.WriteLine($"{number} X {i + 1} = {number * (i + 1)}");
+                Console.WriteLine($"{number} X {j + 1} = {number * (j + 1)}");
+                j++;
             }
         }
     }
