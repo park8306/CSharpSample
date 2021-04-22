@@ -59,7 +59,7 @@ namespace MultiplicationTableRandomQuiz
         {
             Console.WriteLine(log);
         }
-        //깃허브 데스크탑 어렵다
+        //깃허브 데스크탑 어렵다!
 
         //private static void Print(string log)
         //{
